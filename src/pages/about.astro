@@ -16,9 +16,9 @@ const socialLinks = profileConfig.links;
 const contentFocus = ["生活记录", "学习笔记"];
 
 const interests = [
-    { icon: "material-symbols:edit-note-rounded", label: "记录生活", title: "把普通日子写下来", text: "用文字保存一些当时的心情，也给未来的自己留一封信。", tone: "rose" },
-    { icon: "material-symbols:headphones-rounded", label: "故事与游戏", title: "在故事里获得能量", text: "喜欢轻松、有想象力的作品，也会记录那些让人会心一笑的瞬间。", tone: "blue" },
-    { icon: "material-symbols:school-outline-rounded", label: "持续学习", title: "为目标认真准备", text: "在学习和生活之间找到自己的节奏，一步一步把目标拆成每天的行动。", tone: "gold" },
+    { icon: "material-symbols:edit-note-rounded", label: "折腾服务器", title: "家里有个小机房", text: "几台虚拟机各司其职，停电了还有微信提醒救场。", tone: "rose" },
+    { icon: "material-symbols:headphones-rounded", label: "游戏", title: "在故事里横冲直撞", text: "剧情党为主，偶尔联机——坑了会道歉的那种队友。", tone: "blue" },
+    { icon: "material-symbols:school-outline-rounded", label: "听歌", title: "耳机里的小宇宙", text: "歌单从古风横跨电子，欢迎交换歌荒救济。", tone: "gold" },
 ];
 const honors = parseHonors(honorsSource);
 ---
@@ -31,7 +31,7 @@ const honors = parseHonors(honorsSource);
                     <div class="about-portrait"><ImageWrapper src={profileConfig.avatar || ""} alt={`${profileConfig.name} 的头像`} /></div>
                     <span class="about-portrait-caption"><Icon name="material-symbols:favorite-rounded" /> {profileConfig.name}</span>
                 </div>
-                <div class="about-status"><span></span> 今天也在认真生活中</div>
+                <div class="about-status"><span></span> 今天也要花开有声</div>
             </div>
             <div class="about-intro-copy">
                 <div class="about-kicker"><Icon name="material-symbols:auto-awesome-rounded" /> ABOUT {profileConfig.name.toUpperCase()} <span>档案 · 01</span></div>
@@ -39,11 +39,11 @@ const honors = parseHonors(honorsSource);
                 <p class="about-lead">{profileConfig.bio} 这里是我的个人空间，记录生活、热爱和一些正在慢慢完成的想法。</p>
                 <p class="about-copy">都看到这里啦，那就不许再装作不认识我咯！希望这里的生活片段、兴趣记录和学习笔记，能让你在忙碌的一天里找到一点轻松。</p>
                 <div class="about-profile-details">
-                    <span class="about-origin-line"><span><Icon name="material-symbols:location-on-rounded" /> 地址 <b>你的城市</b></span><i>·</i><span><Icon name="material-symbols:computer-outline-rounded" /> 专业 <b>你的专业或职业</b></span></span>
+                    <span class="about-origin-line"><span><Icon name="material-symbols:location-on-rounded" /> 地址 <b>广东 · 深圳</b></span><i>·</i><span><Icon name="material-symbols:computer-outline-rounded" /> 专业 <b>计算机 · 业余入迷</b></span></span>
                     <span><Icon name="material-symbols:person-outline-rounded" /> 身份 <b>博客作者</b></span>
                     <span><Icon name="material-symbols:edit-note-rounded" /> 记录 <b>日常与灵感</b></span>
-                    <span><Icon name="material-symbols:interests-rounded" /> 喜欢 <b>阅读、音乐、创作</b></span>
-                    <span><Icon name="material-symbols:school-outline-rounded" /> 正在 <b>学习并慢慢成长</b></span>
+                    <span><Icon name="material-symbols:interests-rounded" /> 喜欢 <b>游戏、音乐、折腾电脑</b></span>
+                    <span><Icon name="material-symbols:school-outline-rounded" /> 正在 <b>边玩边学，慢慢变强</b></span>
                 </div>
                 <div class="about-facts">
                     <span><Icon name="material-symbols:article-outline-rounded" /> <strong>{posts.length}</strong> 篇文章</span>
