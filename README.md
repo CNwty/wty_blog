@@ -67,3 +67,5 @@ corepack pnpm preview
 ## 来源与许可
 
 框架基于 [Fuwari](https://github.com/saicaca/fuwari) 修改，保留其 [MIT License](LICENSE) 与版权声明。原主题的多语言说明保留作上游参考，本模板的部署与使用以当前 README 和中文使用文档为准。模板附带的 SVG 示例图片由简单矢量图形组成，可以随模板使用；文章页显示的 CC 协议是内容展示配置，与源码 MIT 许可分开设置。
+
+<!-- autodeploy test 2026-11-16 -->
