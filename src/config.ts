@@ -38,6 +38,7 @@ export const profileConfig: ProfileConfig = {
 	name: "花念奴",
 	bio: "花间记事，念念成诗。",
 	links: [
+        { name: "GitHub", icon: "fa6-brands:github", url: "https://github.com/CNwty" },
         { name: "邮箱", icon: "fa6-regular:envelope", url: "mailto:2468484854@qq.com" },
     ],
 };
