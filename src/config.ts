@@ -3,11 +3,11 @@ import { LinkPreset } from "./types/config";
 
 // 公开站点信息；部署前替换为你自己的内容。
 export const siteConfig: SiteConfig = {
-	title: "My Little Blog",
-	subtitle: "",
-	siteStartedAt: "2026-01-01",
+	title: "念奴小筑",
+	subtitle: "花开有声 · 念念不忘",
+	siteStartedAt: "2026-11-16",
 	lang: "zh_CN",
-	themeColor: { hue: 345, fixed: false },
+	themeColor: { hue: 330, fixed: false },
 	banner: {
 		enable: false,
 		src: "/images/banner.svg",
@@ -15,7 +15,7 @@ export const siteConfig: SiteConfig = {
 		credit: { enable: false, text: "", url: "" },
 	},
 	toc: { enable: true, depth: 2 },
-	favicon: [{ src: "/images/avatar.svg", sizes: "any" }],
+	favicon: [{ src: "/images/avatar.webp", sizes: "any" }],
 };
 
 export const navBarConfig: NavBarConfig = {
@@ -34,12 +34,12 @@ export const navBarConfig: NavBarConfig = {
 export const twikooConfig = { envId: "" };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/images/avatar.svg",
-	name: "Your Name",
-	bio: "记录生活、学习和正在发生的小事。",
+	avatar: "/images/avatar.webp",
+	name: "花念奴",
+	bio: "花间记事，念念成诗。",
 	links: [
-		// 示例：{ name: "Bilibili", icon: "fa6-brands:bilibili", url: "https://space.bilibili.com/你的编号" },
-	],
+        { name: "邮箱", icon: "fa6-regular:envelope", url: "mailto:2468484854@qq.com" },
+    ],
 };
 
 export const licenseConfig: LicenseConfig = {
